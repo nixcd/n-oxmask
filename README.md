@@ -11,3 +11,7 @@ It consumes 0.00 - 0.01ms client.
 
 ## Other Scripts:
 https://github.com/NixCD/esx_tps
+
+## Video:
+https://streamable.com/6p3hm1
+
