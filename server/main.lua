@@ -7,6 +7,6 @@ ESX.RegisterUsableItem('trajebuceo', function(source, name)
 	TriggerClientEvent('nix_o2mask:trajebuceo', source)
 	if (true) then
 		xPlayer.removeInventoryItem('trajebuceo', 1)
-		print(xPlayer.getName() .. ' se ha puesto un 1 traje de buceo!') -- Print for Steam Name
+		print(xPlayer.getName() .. ' se ha puesto x1 traje de buceo!') -- Print for Steam Name
 	end
 end)
