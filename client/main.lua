@@ -9,7 +9,7 @@ end)
 
 RegisterNetEvent('nix_o2mask:trajebuceo')
 AddEventHandler('nix_o2mask:trajebuceo', function()
-	local playerPed = GetPlayerPed(-1)
+	local playerPed = PlayerPedId()
 	local coords = GetEntityCoords(playerPed)
 	local boneIndex = GetPedBoneIndex(playerPed, 12844)
 	local boneIndex2 = GetPedBoneIndex(playerPed, 24818)
