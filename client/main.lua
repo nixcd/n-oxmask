@@ -28,9 +28,9 @@ AddEventHandler('nix_o2mask:trajebuceo', function()
 
 	FreezeEntityPosition(playerPed, true)
 	ESX.ShowNotification('Te estas poniendo el ~b~traje~w~, espera...')
-	TaskPlayAnim(playerPed, "missmic4", "michael_tux_fidget", 1.0, -1.0, 2000, 0, 1, true, true, true) -- Animacion Poniendose el traje
+	TaskPlayAnim(playerPed, "missmic4", "michael_tux_fidget", 1.0, -1.0, 2000, 0, 1, true, true, true)
 	Citizen.Wait(5000)
-	TaskPlayAnim(playerPed, "clothingtie", "try_tie_positive_a", 1.0, -1.0, 2000, 0, 1, true, true, true) -- Animacion Acabar Ponerse bien el traje
+	TaskPlayAnim(playerPed, "clothingtie", "try_tie_positive_a", 1.0, -1.0, 2000, 0, 1, true, true, true)
 	FreezeEntityPosition(playerPed, false)
 	Citizen.Wait(1000)
 	ESX.Game.SpawnObject('p_s_scuba_mask_s', {
@@ -61,7 +61,6 @@ AddEventHandler('nix_o2mask:trajebuceo', function()
 			DeleteObject(object)
 			DeleteObject(object2)
 			ClearPedSecondaryTask(playerPed)
-			print('Te has puesto el traje')
 		end)
 	end)
 end)
