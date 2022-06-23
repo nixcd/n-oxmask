@@ -7,7 +7,7 @@ It consumes 0.00 - 0.01ms client.
 ## Requirements:
 
 - es_extended
-- add 'ensure nix_o2mask' to your server.cfg file. 
+- add 'ensure n-oxmask' to your server.cfg file. 
 
 ## Other Scripts:
 https://github.com/NixCD/esx_tps
